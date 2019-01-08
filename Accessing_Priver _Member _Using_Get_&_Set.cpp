@@ -21,8 +21,6 @@ int Student::getRollno()
 int main()
 {
  Student A;
- //A.rollno=1;  //Compile time error
- //cout<< A.rollno; //Compile time error
 
  A.setRollno(1);  //Rollno initialized to 1
  cout<< A.getRollno(); //Output will be 1
